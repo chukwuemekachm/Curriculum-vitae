@@ -1,10 +1,10 @@
 import React from 'react';
 
-import Image from '../components/atoms/Image';
+import Aside from '../components/molecules/Aside';
 
 const IndexPage = () => (
   <div>
-    <Image />
+    <Aside />
   </div>
 );
 

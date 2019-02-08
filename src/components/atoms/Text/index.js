@@ -6,19 +6,19 @@ const Text = ({ children, color }) => (
   <TextWrapper color={color}>{children}</TextWrapper>
 );
 
-const TextWrapper = styled.h5`
+const TextWrapper = styled.span`
   background-color: #1c46f2;
   white-space: normal;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 20px;
-  letter-spacing: 0px;
+  letter-spacing: 1.5px;
   font-family: 'Open Sans';
-  font-weight: 300;
-  margin: 40px;
-  padding: 20px;
+  font-weight: 100;
+  margin: 0px;
+  padding: 0px;
   opacity: 1;
 
-  color: ${({ color }) => (color ? color : '#fff')};
+  color: ${({ color }) => (color ? color : '#efeff4')};
 `;
 
 Text.propTypes = {

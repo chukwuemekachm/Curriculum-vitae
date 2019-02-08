@@ -12,9 +12,9 @@ const Title = ({ children, header, color }) => {
 };
 
 const defaultTitleCSS = css`
-  font-size: 18px;
+  font-size: 15px;
   line-height: 20px;
-  font-weight: 600;
+  font-weight: 400;
   color: #ffffff;
 `;
 
@@ -27,8 +27,8 @@ const headerTitleCSS = css`
 
 const TitleWrapper = styled.h3`
   white-space: normal;
-  font-family: 'Montserrat';
-  letter-spacing: 0px;
+  font-family: 'Open Sans';
+  letter-spacing: .2px;
   text-align: inherit;
   margin: 0px;
   padding: 0px;
