@@ -7,10 +7,10 @@ import Icon from '../../atoms/Icon';
 const SocialMediaIcons = () => (
   <IconsWrapper>
     <Icon>
-      <IoLogoGithub />
+      <IoLogoLinkedin />
     </Icon>
     <Icon>
-      <IoLogoLinkedin />
+      <IoLogoGithub />
     </Icon>
     <Icon>
       <IoLogoTwitter />
@@ -18,6 +18,8 @@ const SocialMediaIcons = () => (
   </IconsWrapper>
 );
 
-const IconsWrapper = styled.div``;
+const IconsWrapper = styled.div`
+  margin-top: 10px;
+`;
 
 export default SocialMediaIcons;

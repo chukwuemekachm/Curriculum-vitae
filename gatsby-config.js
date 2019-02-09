@@ -33,7 +33,7 @@ module.exports = {
         fonts: [
           {
             family: `Montserrat`,
-            variants: [`200`, `300`, `400`, `600`, `700`],
+            variants: [`200`, `300`, `400`, `500`, `600`, `700`],
           },
           {
             family: `Open Sans`,
