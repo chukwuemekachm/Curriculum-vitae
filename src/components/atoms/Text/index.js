@@ -23,7 +23,7 @@ const TextWrapper = styled.span`
 `;
 
 Text.propTypes = {
-  children: PropTypes.string,
+  children: PropTypes.string.isRequired,
   color: PropTypes.string,
 };
 
