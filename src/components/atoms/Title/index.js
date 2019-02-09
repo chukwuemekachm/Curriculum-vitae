@@ -19,16 +19,16 @@ const defaultTitleCSS = css`
 `;
 
 const headerTitleCSS = css`
-  font-size: 55px;
-  line-height: 73px;
-  font-weight: 700;
+  font-size: 42px;
+  line-height: 46px;
+  font-weight: 600;
   color: #000000;
 `;
 
 const TitleWrapper = styled.h3`
   white-space: normal;
   font-family: 'Open Sans';
-  letter-spacing: .2px;
+  letter-spacing: 0px;
   text-align: inherit;
   margin: 0px;
   padding: 0px;

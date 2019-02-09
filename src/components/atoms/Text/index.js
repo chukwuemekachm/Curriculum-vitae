@@ -7,13 +7,14 @@ const Text = ({ children, color }) => (
 );
 
 const TextWrapper = styled.span`
-  background-color: #1c46f2;
+  background-color: transparent;
   white-space: normal;
   font-size: 13px;
   line-height: 20px;
   letter-spacing: 1.5px;
   font-family: 'Open Sans';
   font-weight: 100;
+  display: block;
   margin: 0px;
   padding: 0px;
   opacity: 1;
