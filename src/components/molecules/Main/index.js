@@ -4,9 +4,13 @@ import styled from 'styled-components';
 import Title from '../../atoms/Title';
 import Text from '../../atoms/Text';
 import Button from '../../atoms/Button';
+import Image from '../../atoms/Image';
 
 const Main = () => (
   <MainWrapper>
+    <ImageWrapper>
+      <Image />
+    </ImageWrapper>
     <ContentWrapper>
       <Title header>Chukwuemeka</Title>
       <Title header color="#1c46f2">
@@ -42,6 +46,14 @@ const ContentWrapper = styled.div`
   span {
     margin: 32px 0 32px 0;
   }
+`;
+
+const ImageWrapper = styled.div`
+  width: 380px;
+  height: auto;
+  position: absolute;
+  top: 26%;
+  left: 23%;
 `;
 
 export default Main;

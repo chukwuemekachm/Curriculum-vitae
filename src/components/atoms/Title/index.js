@@ -38,7 +38,7 @@ const TitleWrapper = styled.h3`
 `;
 
 Title.propTypes = {
-  children: PropTypes.string,
+  children: PropTypes.string.isRequired,
   header: PropTypes.bool,
   color: PropTypes.string,
 };

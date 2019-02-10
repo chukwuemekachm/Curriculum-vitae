@@ -46,7 +46,7 @@ const ButtonWrapper = styled.button`
 `;
 
 Button.propTypes = {
-  children: PropTypes.string,
+  children: PropTypes.string.isRequired,
   download: PropTypes.bool,
 };
 

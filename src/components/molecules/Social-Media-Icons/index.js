@@ -6,15 +6,24 @@ import Icon from '../../atoms/Icon';
 
 const SocialMediaIcons = () => (
   <IconsWrapper>
-    <Icon>
-      <IoLogoLinkedin />
-    </Icon>
-    <Icon>
-      <IoLogoGithub />
-    </Icon>
-    <Icon>
-      <IoLogoTwitter />
-    </Icon>
+    <a
+      href="https://linkedin.com/in/chima-chukwuemeka-b17716168/"
+      target="_blank"
+    >
+      <Icon>
+        <IoLogoLinkedin />
+      </Icon>
+    </a>
+    <a href="https://github.com/chukwuemekachm" target="_blank">
+      <Icon>
+        <IoLogoGithub />
+      </Icon>
+    </a>
+    <a href="https://twitter.com/chukwuemekachm" target="_blank">
+      <Icon>
+        <IoLogoTwitter />
+      </Icon>
+    </a>
   </IconsWrapper>
 );
 
