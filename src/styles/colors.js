@@ -1,0 +1,9 @@
+export const royalBlue = '#1c46f2';
+export const royalBlueHover = '#0b30c1';
+export const midNightBlue = '#0b1b5b';
+export const midNightBlueHover = '#060e2d';
+export const white = '#ffffff';
+export const darkSlateGrey = '#003648';
+export const darkSlateGreyHover = '#00131a';
+export const lightSeaGreen = '#00bb8f';
+export const lightSeaGreenHover = '#009975';

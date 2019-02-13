@@ -15,7 +15,7 @@ const defaultTitleCSS = css`
   font-size: 15px;
   line-height: 20px;
   font-weight: 400;
-  color: #ffffff;
+  color: ${props => props.theme.accent};
 `;
 
 const headerTitleCSS = css`
