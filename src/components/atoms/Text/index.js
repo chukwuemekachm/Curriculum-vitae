@@ -19,7 +19,7 @@ const TextWrapper = styled.span`
   padding: 0px;
   opacity: 1;
 
-  color: ${({ color }) => (color ? color : '#efeff4')};
+  color: ${({ color, theme }) => (color ? color : theme.accent)};
 `;
 
 Text.propTypes = {

@@ -5,14 +5,14 @@ import PropTypes from 'prop-types';
 const Icon = ({ children }) => <IconWrapper>{children}</IconWrapper>;
 
 const IconWrapper = styled.span`
-  background-color: #1c46f2;
+  background-color: ${props => props.theme.primary};
   padding: 0px;
   margin-right: 16px;
 
   svg {
     background-color: transparent;
     border-color: transparent;
-    color: #fff;
+    color: ${props => props.theme.accent};
     border: none;
     border-color: none;
   }

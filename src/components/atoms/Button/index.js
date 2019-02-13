@@ -8,29 +8,29 @@ const Button = ({ children, download }) => {
 };
 
 const defaultButtonCSS = css`
-  background-color: #1c46f2;
-  border-color: #1c46f2;
+  background-color: ${props => props.theme.primary};
+  border-color: ${props => props.theme.primary};
 
   &:hover {
-    background-color: #0b30c1;
-    border-color: #0b30c1;
+    background-color: ${props => props.theme.primaryHover};
+    border-color: ${props => props.theme.primaryHover};
     cursor: pointer;
   }
 `;
 
 const downloadButtonCSS = css`
-  background-color: #07123d;
-  border-color: #07123d;
+  background-color: ${props => props.theme.secondary};
+  border-color: ${props => props.theme.secondary};
 
   &:hover {
-    background-color: #1c46f2;
-    border-color: #1c46f2;
+    background-color: ${props => props.theme.secondaryHover};
+    border-color: ${props => props.theme.secondaryHover};
     cursor: pointer;
   }
 `;
 
 const ButtonWrapper = styled.button`
-  color: #ffffff;
+  color: ${props => props.theme.accent};
   white-space: nowrap;
   font-size: 14px;
   line-height: 30px;

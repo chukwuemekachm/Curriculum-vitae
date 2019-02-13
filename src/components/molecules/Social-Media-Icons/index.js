@@ -9,17 +9,26 @@ const SocialMediaIcons = () => (
     <a
       href="https://linkedin.com/in/chima-chukwuemeka-b17716168/"
       target="_blank"
+      rel="noopener noreferrer"
     >
       <Icon>
         <IoLogoLinkedin />
       </Icon>
     </a>
-    <a href="https://github.com/chukwuemekachm" target="_blank">
+    <a
+      href="https://github.com/chukwuemekachm"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
       <Icon>
         <IoLogoGithub />
       </Icon>
     </a>
-    <a href="https://twitter.com/chukwuemekachm" target="_blank">
+    <a
+      href="https://twitter.com/chukwuemekachm"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
       <Icon>
         <IoLogoTwitter />
       </Icon>
